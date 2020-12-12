@@ -13,7 +13,7 @@
       }
    ],
    "browser_action": {
-   "default_title": "Does a thing when you do a thing",
+   "default_title": "Runs stuff if you do stuff when it feels like it.",
    "default_popup": "popup.html",
    "default_icon": {
          "16": "images/get_started16.png",
