@@ -1,9 +1,10 @@
-var input = document.getElementById("search");
+let input = document.getElementById("search");
 
 input.addEventListener("keyup", function(event) {
    if (event.keyCode === 13) {
       event.preventDefault();
       document.getElementById("myBtn").click();
+
    }
 });
 
@@ -15,6 +16,7 @@ function hi() {
 }
 
 
-if (input === "ASAP" || "asap" ){
+if (input = "ASAP"){
+   document.getElementById("about").innerHTML = "HI!";
    console.log("ASAP stands for: As Soon As Possible");
 }
