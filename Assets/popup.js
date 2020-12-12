@@ -1,4 +1,3 @@
-alert("Hello from your Chrome extension!")
 /*
 let changeColor = document.getElementById('changeColor');
 
