@@ -9,6 +9,6 @@ body {
    margin: auto;
 }
 
-button {
-   position: absolute;
+#about {
+   margin: 5px;
 }
