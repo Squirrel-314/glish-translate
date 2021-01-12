@@ -10,13 +10,13 @@ input.addEventListener("keyup", function(event) {
 });
 
 function search() {
-   if (input.value == "ASAP") {
+   if (input.value.toUpperCase() == "ASAP") {
       result.innerHTML = "ASAP stands for 'As Soon As Possible'";
    }
-   else if (input.value == "LOL") {
+   else if (input.value.toUpperCase() == "LOL") {
       result.innerHTML = "LOL stands for 'Laugh out Loud' <br> Rare usage: Lots of Love";
    }
-   else if (input.value == "WTF") {
+   else if (input.value.toUpperCase() == "WTF") {
       result.innerHTML = "WASH YOUR MOUTH WITH SOAP AND NEVER REPEAT THOSE FOUL WORDS!";
    }
    else {
