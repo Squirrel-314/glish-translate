@@ -1,6 +1,6 @@
 {
    "name": "Glish Translate",
-   "version": "0.1.0",
+   "version": "0.0.1",
    "description": "A Chrome extension that translates Glish!",
    "manifest_version": 2,
    "short_name": "Glish Translate",
