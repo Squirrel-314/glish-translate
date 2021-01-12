@@ -20,6 +20,6 @@ function search() {
       result.innerHTML = "WASH YOUR MOUTH WITH SOAP AND NEVER REPEAT THOSE FOUL WORDS!";
    }
    else {
-      result.innerHTML = "Sorry, that term is not in out dictionary yet. Please create an issue on <a href=\"https://github.com/Squirrel-314/glish-translate/issues\"  target=\"_blank\">GitHub</a>";
+      result.innerHTML = "Sorry, that term is not in our dictionary yet. Please create an issue on <a href=\"https://github.com/Squirrel-314/glish-translate/issues\"  target=\"_blank\">GitHub</a>";
    }
 }
